@@ -1,0 +1,25 @@
+.blog {
+  #topBanner {
+    background-position: center;
+  }
+}
+
+#cta {
+  background-color: #004d40;
+}
+
+#blog-main {
+  .card {
+    margin-bottom: 1.5rem;
+
+    &-footer {
+      background-color: transparent;
+    }
+  }
+
+  aside {
+    a {
+      text-decoration: none;
+    }
+  }
+}

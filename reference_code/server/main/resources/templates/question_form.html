@@ -1,0 +1,26 @@
+<html layout:decorate="~{layout}" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">>
+<div layout:fragment="content" class="container">
+    <h5 class="my-3 border-bottom pb-2">펌웨어 업로드</h5>
+    <form th:object="${questionForm}" method="post" enctype="multipart/form-data">
+
+        <div th:replace="~{form_errors :: formErrorsFragment}"></div>
+        <div class="mb-3">
+            <label for="subject" class="form-label">펌웨어 이름</label>
+            <input type="text" th:field="*{subject}" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="content" class="form-label">버전</label>
+            <textarea th:field="*{content}" class="form-control"></textarea>
+        </div>
+        <!--파일 선택추가-->
+        <input type="file" name="file">
+
+
+        <input type="submit" value="저장하기" class="btn btn-primary my-2">
+
+    </form>
+
+
+</div>
+</html>

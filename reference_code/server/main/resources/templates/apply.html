@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+          integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+          integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css" integrity="sha512-b42SanD3pNHoihKwgABd18JUZ2g9j423/frxIP5/gtYgfBz/0nDHGdY/3hi+3JwhSckM3JLklQ/T6tJmV7mZEw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <link href="https://fonts.googleapis.com/
+
+    icon?family=Material+Icons|Material+Icons+Sharp|Material+Icons+Two+Tone|Material+Icons+Outlined"
+
+          rel="stylesheet">
+    <title>KUSE: Kookmin university Security </title>
+</head>
+
+<body>
+<!-- Navbar -->
+<nav id="primary-navbar" class="navbar navbar-expand-lg navbar-transparent fixed-top rgba-black-light">
+
+    <div class="container-xxl">
+
+        <a class="navbar-brand text-white" href="/" data-bs-toggle="tooltip" data-bs-placement="bottom" title="홈 바로가기">
+
+            <img src="/assets/images/slogo.png" alt="My Logo" width="60px"> KUSE: security in Kookmin university
+
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#navbarModalContent">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+
+
+
+
+
+
+
+                <li class="nav-item">
+
+                    <a class="nav-link active" aria-current="page" href="/"><i class="fa fa-home fa-lg"></i><p>Home</p></a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link" href="/apply"><i class="fa fa-info fa-lg"></i><p>Apply</p></a>
+
+                </li>
+
+
+
+                <li class="nav-item">
+
+                    <a href="/question/list" class="nav-link"><i class="fa fa-desktop fa-lg"></i><p>OTA 게시판</p></a>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</nav>
+<div class="modal fade" id="navbarModalContent" aria-labelledby="navbarModalContent" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="navbarModalContentLabel">Kuse SEcurity in Kookmin University</h5>
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-lable="Close"></button>
+            </div>
+            <div class="modal-body">
+                <ul class="list-unstyled mobile-menu">
+                    <li class="active">
+                        <a href="/" class="current">Home</a>
+                    </li>
+
+                    <li class="active">
+                        <a href="/apply" class="current">Apply</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Navbar -->
+
+<!-- Top Banner -->
+<section id="topBanner" class="banner mb-0 wow fadeInDown" style="background-image: url('assets/images/bg.jpg');">
+    <div class="section-content w-75">
+        <div class="container text-center rgba-black-light py-4 text-white">
+            <h1 class="display-4">KUSE 3기 신입부원 모집</h1>
+            <hr class="hr-white">
+        </div>
+    </div>
+</section>
+
+<!-- Page Content -->
+<section id="page-content" class="main main-raised-square">
+    <div class="section-content">
+        <div class="container">
+            <div class="row py-5">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc-Ho9e-PcIRV_AlxGMjkSef4jPa_bfJYwuhcqA2M1wYNA9XA/viewform?embedded=true" width="640" height="2380" frameborder="0" marginheight="0" marginwidth="0">로드 중…</iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<footer id="footer">
+    <div class="section-content">
+        <div class="container">
+            <div class="nav-footer">
+                <a href="/" class="text-decoration-none fw-light">Home</a> |
+                <a href="/apply" class="text-decoration-none fw-light">Apply</a> |
+                <a href="/question/list" class="text-decoration-none fw-light">OTA 게시판</a>
+            </div>
+            <hr class="hr-white">
+            <div class="row align-items-center">
+                <div class="col-md-3 text-center mb-3 mb-md-0">
+                    <img src="/assets/images/slogo.png" alt="KUSE" class="img-fluid" width="200px">
+                </div>
+                <div class="col-md-9 footer-informations">
+
+                    <br>
+                    <div class="copyright text-center text-muted mt-4" >
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script>
+
+                        주소 : 02707 서울특별시 성북구 정릉로 77 국민대학교 TEL 02.910.4114
+
+                        <br>
+
+                        영문 주소 : KOOKMIN UNIVERSITY, 77 JEONGNEUNG-RO, SEONGBUK-GU, SEOUL, 02707, KOREA
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js" integrity="sha512-6ORWJX/LrnSjBzwefdNUyLCMTIsGoNP6NftMy2UAm1JBm6PRZCO1d7OHBStWpVFZLO+RerTvqX/Z9mBFfCJZ4A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="assets/js/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js" integrity="sha512-6gudNVbNM/cVsLUMOb8g2b/RBqtQJ3aDfRFgU+5paeaCTtbYY/Dg00MzZq7r6RvJGI2KKtPBhjkHGTL/iOe21A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script type="module" src="/assets/js/main.js"></script>
+</body>
+
+</html>

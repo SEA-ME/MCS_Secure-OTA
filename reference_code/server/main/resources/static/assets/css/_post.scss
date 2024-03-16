@@ -1,0 +1,44 @@
+#post-content {
+  .post-header {
+    border-bottom: 1px solid rgba(96, 125, 139, 0.7);
+  }
+
+  .post-featured-meta {
+    .post-meta {
+      border-top: 1px solid rgba(96, 125, 139, 0.35);
+      border-bottom: 1px solid rgba(96, 125, 139, 0.35);
+    }
+
+    .post-featured-second {
+      position: relative;
+
+      .post-excerpt,
+      .second-featured-img {
+        position: absolute;
+        left: -4rem;
+      }
+
+      .post-excerpt {
+        top: 1rem;
+      }
+
+      .second-featured-img {
+        top: 10rem;
+      }
+    }
+  }
+}
+
+#post-content,
+#related-posts {
+  a {
+    text-decoration: none;
+  }
+}
+
+#related-posts {
+  .image-raised {
+    margin: -1.5rem 0.625rem 0;
+    transform: scale(0.9);
+  }
+}

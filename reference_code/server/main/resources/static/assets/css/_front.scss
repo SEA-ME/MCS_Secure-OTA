@@ -1,0 +1,73 @@
+/* Carousel */
+#carousel-front-slides {
+  #outer-slide {
+    filter: blur(4px);
+  }
+
+  #inner-slide {
+    top: 15%;
+    bottom: 15%;
+  }
+}
+
+/* Front info section */
+#section-info {
+  background-image: url('./../images/tile.jpg');
+  background-repeat: repeat;
+}
+
+/* Front gallery */
+#gallery {
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+
+    img {
+      display: block;
+    }
+
+    &:hover {
+      .img-overlay {
+        top: 0;
+      }
+    }
+
+    .img-overlay {
+      position: absolute;
+      top: 100%;
+      bottom: 0;
+      right: 13px;
+      left: 13px;
+      padding: 2rem;
+      background-color: rgba(234, 128, 252, 0.75);
+      color: #fff;
+      transition: top 0.25s ease-in-out;
+    }
+  }
+}
+
+#latest-news {
+  .card-footer {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 1rem;
+    background-color: transparent;
+    border-radius: 0;
+  }
+}
+
+@include mediaSm {
+  #carousel-front-slides {
+    .carousel-item {
+      height: 60vh;
+
+      #outer-slide {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+}
