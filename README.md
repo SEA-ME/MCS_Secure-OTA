@@ -103,9 +103,11 @@ Submit the following artifacts to GitHub:
 __1. Documentations:__
 - Entire system architecture, data structures, and algorithms used.
 - A comprehensive report detailing the methodology, challenges faced, and solutions implemented.
+  
 __2. Proof of Concept:__
 - The source code.
 - Test Cases demonstrating the reliability and accuracy of the system.
+  
 __3. Presentation:__
 - A presentation summarizing the project, including an overview of the system architecture, technical specifications, user interface, and test results.
 <br>
