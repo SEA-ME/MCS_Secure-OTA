@@ -116,4 +116,5 @@ __3. Presentation:__
 ## References
 Here are some open source references that could be useful in developing a Secure OTA project:
 1. MQTT (2022), MQTT, https://mqtt.org/
-2. Shin, Y., & Jeon, S. (2024). MQTree: Secure OTA Protocol Using MQTT and MerkleTree. Sensors, 24(5), 1447.
+2. Merkle Tree, Wikipedia, https://en.wikipedia.org/wiki/Merkle_tree
+3. Shin, Y., & Jeon, S. (2024). MQTree: Secure OTA Protocol Using MQTT and MerkleTree. Sensors, 24(5), 1447.
